@@ -1,0 +1,11 @@
+namn = input("Skriv in ditt namn tack: ")
+ålder = input("Skriv in din ålder: ")
+antal_djur = input("Skriv in antal djur du äger: ")
+adress = input("Skriv in din adress tack: ")
+lön = input("Skriv in din bruttolön: ")
+
+print("Hej på dig", namn)
+print(f"Du är {ålder} och om 10 år kommer du vara {int(ålder) + 10}")
+print(f"Att du har djur är {int(antal_djur) > 0}")
+print(f"Du bor på adress {adress}")
+print(f"Och efter skatt tjänar du {int(lön)*(1 - 0.31)}")
